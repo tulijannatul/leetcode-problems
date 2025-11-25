@@ -1,5 +1,5 @@
 class Solution(object):
-    def containsDuplicate(self, nums):
+    def contains_Duplicate(self, nums):
         hashset = set()
         for n in nums:
             if n in hashset:
